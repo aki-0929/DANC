@@ -1,0 +1,68 @@
+﻿errors:
+  adminRequired: "错误：此程序需要管理员权限才能修改注册表。"
+  runAsAdmin: "请以管理员身份运行此程序。"
+  noAdaptersFound: "未找到显示适配器设备。"
+  noAdaptersAvailable: "没有可用的显示适配器。"
+  noBackupsFound: "未找到备份。"
+  noBackupsAvailable: "没有可用的备份。"
+  backupNotFound: "备份未找到。"
+  unableToOpenRegistry: "无法打开注册表项。"
+  deviceRemoved: "无法打开注册表项。设备可能已被移除。"
+  modificationFailed: "修改失败：无法打开注册表项。"
+  restoreFailed: "恢复备份失败。"
+  deleteFailed: "删除备份失败。"
+  nameEmpty: "名称不能为空，操作已取消。"
+  restartingAsAdmin: "正在以管理员权限重启..."
+  restartFailed: "以管理员权限重启失败。"
+
+menu:
+  selectOperation: "请选择操作："
+  viewAdapterList: "查看显示适配器列表"
+  modifyAdapterName: "修改显示适配器名称"
+  backupManagement: "备份管理"
+  languageSettings: "语言设置"
+  exit: "退出"
+  back: "返回"
+
+backup:
+  management: "备份管理："
+  viewAll: "查看所有备份"
+  restore: "从备份恢复"
+  delete: "删除备份"
+  selectToRestore: "请选择要恢复的备份："
+  selectToDelete: "请选择要删除的备份："
+
+adapter:
+  selectToModify: "请选择要修改的显示适配器："
+  currentName: "当前名称："
+  enterNewName: "请输入新名称："
+  confirmChange: "确定要将名称修改为 '{0}' 吗？"
+  operationCancelled: "操作已取消。"
+  backupCreated: "备份已创建：{0}"
+  usingExistingBackup: "使用现有备份（原始值已保留）"
+  backupFailed: "警告：创建备份失败。是否继续？"
+  continueWithoutBackup: "在没有备份的情况下继续？"
+  nameModified: "名称修改成功！"
+  noteRestart: "注意：可能需要重启计算机或重新安装驱动程序才能看到更改。"
+
+table:
+  no: "序号"
+  deviceId: "设备ID"
+  currentName: "当前名称"
+  backupId: "备份ID"
+  originalName: "原始名称"
+  createdTime: "创建时间"
+
+confirm:
+  restoreBackup: "确定要恢复备份 '{0}' 吗？"
+  deleteBackup: "确定要删除备份 '{0}' 吗？"
+
+success:
+  backupRestored: "备份恢复成功！"
+  backupDeleted: "备份删除成功！"
+  goodbye: "再见！"
+  languageChanged: "语言已更改为 {0}"
+
+common:
+  pressAnyKey: "按任意键继续..."
+
